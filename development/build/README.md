@@ -61,3 +61,4 @@ Options:
                       used internally.
                                                       [boolean] [default: false]
 ```
+yarn build dev --build-type beta --lockdown=false

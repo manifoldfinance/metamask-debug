@@ -42,7 +42,7 @@ const metamaskrc = require('rc')('metamask', {
   SEGMENT_PROD_WRITE_KEY: process.env.SEGMENT_PROD_WRITE_KEY,
   SENTRY_DSN_DEV:
     process.env.SENTRY_DSN_DEV ||
-    'https://f59f3dd640d2429d9d0e2445a87ea8e1@sentry.io/273496',
+   'https://4612daebacb547b5995bdf2a3cc67156@o1029417.ingest.sentry.io/6291435',
 });
 
 const { streamFlatMap } = require('../stream-flat-map.js');
@@ -492,7 +492,7 @@ function createFactoredBuild({
               groupSet,
               commonSet,
               browserPlatforms,
-              useLavamoat: true,
+              useLavamoat: false,
             });
             break;
           }
